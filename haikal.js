@@ -516,7 +516,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'virtext3': {
+case '=t3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -565,6 +565,29 @@ for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `ZALL MODS WA ${iphone6}` }, { quoted: doc })
 }
 }
+ break
+case 'ajg': 
+case 'pantek':
+case 'kontol':
+case 'tempek':
+case 'mmk':
+case 'mek':
+case 'memek':
+case 'kontl': 
+case 'kntl': 
+case 'njing': 
+case 'kon':
+case 'ngtd':
+case 'ngentod': 
+case 'ngentot':
+case 'ngtot':  
+case 'ngen':
+case 'yatim':  {
+if (isBan) throw sticBanLu(from)
+ anjay("Jangan Toxic Cok")
+ hiy = fs.readFileSync('./baseikal/sound/dosa_pantek.mp3')
+ haikal.sendMessage(m.chat, {audio: hiy, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
+ }
 break
 case 'virtext8': {
 if (!isCreator) return
