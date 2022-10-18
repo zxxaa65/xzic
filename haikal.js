@@ -135,7 +135,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m })} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/RisalTmy`}}}, { quoted: m })} 
 //=================================================//
 try {
 let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -459,7 +459,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
-"fileName": `🔥 HWMODS ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
+"fileName": `🔥 ZALLMODS ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
@@ -485,7 +485,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 HWMODS ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 ZALLMODS ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -565,7 +565,7 @@ for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `ZALL MODS WA ${iphone6}` }, { quoted: doc })
 }
 }
- break
+break
 case 'ajg': 
 case 'pantek':
 case 'kontol':
@@ -584,9 +584,8 @@ case 'ngtot':
 case 'ngen':
 case 'yatim':  {
 if (isBan) throw sticBanLu(from)
- anjay("Jangan Toxic Cok")
- hiy = fs.readFileSync('./baseikal/sound/dosa_pantek.mp3')
- haikal.sendMessage(m.chat, {audio: hiy, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
+ hiy = fs.readFileSync('./baseikal/sound/ngokok.mp3')
+ haikal.sendMessage(m.chat, {audio: hiy, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
 break
 case 'virtext8': {
@@ -4119,40 +4118,53 @@ break
 //=================================================//
 case 'menu': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ Owner : ${botname}
-◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
+haikal.sendMessage(m.chat, { image: kalimage, caption: `
+██▀░░░░░░░░░░░░░▀██
+█│░░░░░░░░░░░░░░░│█
+▌│░░░░░░░░░░░░░░░│▐
+░└┐░░░░░░░░░░░░░┌┘░
+░░└┐░░░░░░░░░░░┌┘░░
+░░┌┘▄▄▄░░░░░▄▄▄└┐░░
+▌░│████▌░░░▐████│░▐
+█░│▐██▀░░▄░░▀██▌│░█
+█▌┘░░░░░▐█▌░░░░░└▐█
+██░░▄▄▓░▀█▀░▓▄▄░░██
+██▄─┘█▌░░░░░▐█└─▄██
+███░░▐─┬┬┬┬┬─▌░░███
+███▌░░┬┼┼┼┼┼┬░░▐███
+████▄░└┴┴┴┴┴┘░▄████
+█████▄░░░░░░░▄█████
+╭━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━╮
+┃╭─────────⩵꙰ཱི࿐
+┃╰─ ⏤͟͟͞MENU NYA ─➤ ↶↷
+╰━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━͙✩̣̣̣̣
+ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+╭━━•›〘 ALL MENU 〙
+𖠀⩵꙰ཱི➢ BUGMENU
+𖠀⩵꙰ཱི➢ SCRAPERIMAGE
+𖠀⩵꙰ཱི➢ ASUPANMATA
+𖠀⩵꙰ཱི➢ SCRAPCONVERT
+𖠀⩵꙰ཱི➢ RANDOMSOUND
+𖠀⩵꙰ཱི➢ NSFW
+𖠀⩵꙰ཱི➢ SOUNDBOT
+𖠀⩵꙰ཱི➢ FUNMENU
+𖠀⩵꙰ཱི➢ PRIMBONMENU
+𖠀⩵꙰ཱི➢ ISLAMIYAH
+𖠀⩵꙰ཱི➢ VOICECHANGER
+𖠀⩵꙰ཱི➢ BERITANEWS
+𖠀⩵꙰ཱི➢ CMDMENU
+𖠀⩵꙰ཱི➢ SEARCHMENU
+𖠀⩵꙰ཱི➢ GROUPMENU
+𖠀⩵꙰ཱི➢ DOWNLOADMENU
+𖠀⩵꙰ཱི➢ OWNERMENU
+╰━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
+ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+NOTE
+🛡
+I HAVE CRUSH ON YOU 🔥*-
+ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
 
-[ 🇲🇨 Ini adalah Bot Pribadi  Dari Indonesia 👋 ]
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-*MENU*
-┏━━⊱
-┣❏➥ bugmenu
-┣❏➥ scraperimage
-┣❏➥ asupanmata
-┣❏➥ scrapconvert
-┣❏➥ randomsound
-┣❏➥ nsfw
-┣❏➥ soundbot
-┣❏➥ funnmenu
-┣❏➥ primbonmenu
-┣❏➥ islamiyah
-┣❏➥ voicechanger
-┣❏➥ beritanews
-┣❏➥ cmdmenu
-┣❏➥ searchmenu
-┣❏➥ groupmenu
-┣❏➥ downloadmenu
-┣❏➥ ownermenu
-┗━━⊱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-*NOTE*
-🌷
-contact me Wa.me/62895330006855
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-Base Script
-©Haikal`, contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
+© ⏤͟͟͞𝐙𝚫𝐋𝐋 𝐌𝚫𝐊𝚵𝐑`, contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/RisalTmy`,
@@ -4164,106 +4176,116 @@ break
 //=================================================//
 case 'bugmenu': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} 👋 Selamat ${salam}
+haikal.sendMessage(m.chat, { image: kalimage, caption: `
+██▀░░░░░░░░░░░░░▀██
+█│░░░░░░░░░░░░░░░│█
+▌│░░░░░░░░░░░░░░░│▐
+░└┐░░░░░░░░░░░░░┌┘░
+░░└┐░░░░░░░░░░░┌┘░░
+░░┌┘▄▄▄░░░░░▄▄▄└┐░░
+▌░│████▌░░░▐████│░▐
+█░│▐██▀░░▄░░▀██▌│░█
+█▌┘░░░░░▐█▌░░░░░└▐█
+██░░▄▄▓░▀█▀░▓▄▄░░██
+██▄─┘█▌░░░░░▐█└─▄██
+███░░▐─┬┬┬┬┬─▌░░███
+███▌░░┬┼┼┼┼┼┬░░▐███
+████▄░└┴┴┴┴┴┘░▄████
+█████▄░░░░░░░▄█████
+╭━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━╮
+┃╭─────────⩵꙰ཱི࿐
+┃╰─ ⏤͟͟͞MENU NYA ─➤ ↶↷
+╰━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━͙✩̣̣̣̣
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── SPECIAL BUG ──❏ 
+𖠀⩵꙰ཱི➢ afk { kasih reactions }
+𖠀⩵꙰ཱི➢ bugghoib [ on / off ]
+𖠀⩵꙰ཱི➢ jagoanom [ reply target ]
+𖠀⩵꙰ཱི➢ bugsange [ Harus Menjadi Admin ]
+𖠀⩵꙰ཱི➢ bugtiktok [ Link ] - Bug Sw
+𖠀⩵꙰ཱི➢ jadikatalog [ reply sticker ] jumlah
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── OTW TARGET ──❏ 
+𖠀⩵꙰ཱི➢ 🔥 628xxx|5|5
+𖠀⩵꙰ཱི➢ ampas1 628xxx
+𖠀⩵꙰ཱི➢ santetdia 628xxx@s.whatsapp.net|10|10s
+𖠀⩵꙰ཱི➢ catalogpc 628xxx@s.whatsapp.net|10|10s
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── OTW GROUP ──❏ 
+𖠀⩵꙰ཱི➢ Ketik > m.chat ( di group dulu🌷)
+𖠀⩵꙰ཱི➢ ampas2 112674448xxx
+𖠀⩵꙰ཱི➢ santetgc  1237891xxxx@g.us|10|10s
+𖠀⩵꙰ཱི➢ cataloggc 1237891xxxx@g.us|10|10s
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── VIRTEX SPAM ──❏ 
+𖠀⩵꙰ཱི➢ virtext1 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext2 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext3 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext4 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext5 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext6 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext7 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext8 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext9 [ jumlah ]
+𖠀⩵꙰ཱི➢ virtext10 [ jumlah ]
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── BUG SPAM ──❏ 
+𖠀⩵꙰ཱི➢ 🌷 [ jumlah ]
+𖠀⩵꙰ཱི➢ bugstik [ jumlah ]
+𖠀⩵꙰ཱི➢ bugie [ jumlah ]
+𖠀⩵꙰ཱི➢ buglokas [ jumlah ]
+𖠀⩵꙰ཱི➢ bugtod [ jumlah ]
+𖠀⩵꙰ཱི➢ bugbokep [ jumlah ]
+𖠀⩵꙰ཱི➢ buginvite [ jumlah ] Pc
+𖠀⩵꙰ཱི➢ ha [ jumlah ]
+𖠀⩵꙰ཱི➢ hi [ jumlah ]
+𖠀⩵꙰ཱི➢ hu [ jumlah ]
+𖠀⩵꙰ཱི➢ he [ jumlah ]
+𖠀⩵꙰ཱི➢ ba [ jumlah ]
+𖠀⩵꙰ཱི➢ be [ jumlah ]
+𖠀⩵꙰ཱི➢ bu [ jumlah ]
+𖠀⩵꙰ཱི➢ bi [ jumlah ]
+𖠀⩵꙰ཱི➢ ca [ jumlah ]
+𖠀⩵꙰ཱི➢ ci [ jumlah ]
+𖠀⩵꙰ཱི➢ cu [ jumlah ]
+𖠀⩵꙰ཱི➢ co [ jumlah ]
+𖠀⩵꙰ཱི➢ bug1 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug2 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug3 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug4 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug5 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug6 [ jumlah ]
+𖠀⩵꙰ཱི➢ bug7 [ jumlah ]
+𖠀⩵꙰ཱི➢ poll [ jumlah ]
+𖠀⩵꙰ཱི➢ bugtag [ jumlah ]
+𖠀⩵꙰ཱི➢ inibug [ jumlah ]
+𖠀⩵꙰ཱི➢ buttonampas [ jumlah ]
+𖠀⩵꙰ཱི➢ hiya [ jumlah ]
+𖠀⩵꙰ཱི➢ lokas [ jumlah ]
+𖠀⩵꙰ཱི➢ catalog [ jumlah ]
+𖠀⩵꙰ཱི➢ docu [ jumlah ]
+𖠀⩵꙰ཱི➢ daca [ jumlah ]
+𖠀⩵꙰ཱི➢ duc [ jumlah ]
+𖠀⩵꙰ཱི➢ ducu [ jumlah ]
+𖠀⩵꙰ཱི➢ troli [ jumlah ]
+𖠀⩵꙰ཱི➢ troli2 [ jumlah ]
+𖠀⩵꙰ཱི➢ spam [ Reply Pesan ]
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── JADI BUG MENU ──❏ 
+𖠀⩵꙰ཱི➢ jadibug1 [ Reply Video Jadi Bug Audio ]
+𖠀⩵꙰ཱི➢ jadibug2 [ Reply Video Jadi Bug Mp3 ]
+𖠀⩵꙰ཱི➢ jadibug3 [ Reply Audio Jadi Bug Vn ]
+𖠀⩵꙰ཱི➢ jadibug4 [ Reply Sticker Jadi Bug Gambar ]
+𖠀⩵꙰ཱི➢ jadibug5 [ Reply Gambar Jadi Bug Once ] 
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
+❏ ── BUG BROADCAST ──❏ 
+𖠀⩵꙰ཱི➢ bugbcimage [ Bug image Broadcast ]
+𖠀⩵꙰ཱི➢ bugbcvideo [ Bug Video Broadcas ]
+𖠀⩵꙰ཱི➢ bugbc audio [ Bug Audio Broadcast ]
+𖠀⩵꙰ཱི➢ bugbctext [ Bug Text Broadcast ]
+[▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬]
 
-◎ Owner : ${botname}
-◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
-
-° SPESIAL BUG *
-
-afk { kasih reactions }
-bugghoib [ on / off ]
-jagoanom [ reply target ]
-bugsange [ Harus Menjadi Admin ]
-bugtiktok [ Link ] - Bug Sw
-jadikatalog [ reply sticker ] jumlah
-
-° OTW TARGET °
-
-🔥 628xxx|5|5
-ampas1 628xxx
-santetdia 628xxx@s.whatsapp.net|10|10s
-catalogpc 628xxx@s.whatsapp.net|10|10s
-
-° OTW GROUP °
-
-Ketik > m.chat ( di group dulu🌷)
-
-ampas2 112674448xxx
-santetgc  1237891xxxx@g.us|10|10s
-cataloggc 1237891xxxx@g.us|10|10s
-
-° Virtext Spam °
-
-virtext1 [ jumlah ]
-virtext2 [ jumlah ]
-virtext3 [ jumlah ]
-virtext4 [ jumlah ]
-virtext5 [ jumlah ]
-virtext6 [ jumlah ]
-virtext7 [ jumlah ]
-virtext8 [ jumlah ]
-virtext9 [ jumlah ]
-virtext10 [ jumlah ]
-
-° Bug Spam °
-
-🌷 [ jumlah ]
-bugstik [ jumlah ]
-bugie [ jumlah ]
-buglokas [ jumlah ]
-bugtod [ jumlah ]
-bugbokep [ jumlah ]
-buginvite [ jumlah ] Pc
-ha [ jumlah ]
-hi [ jumlah ]
-hu [ jumlah ]
-he [ jumlah ]
-ba [ jumlah ]
-be [ jumlah ]
-bu [ jumlah ]
-bi [ jumlah ]
-ca [ jumlah ]
-ci [ jumlah ]
-cu [ jumlah ]
-co [ jumlah ]
-bug1 [ jumlah ]
-bug2 [ jumlah ]
-bug3 [ jumlah ]
-bug4 [ jumlah ]
-bug5 [ jumlah ]
-bug6 [ jumlah ]
-bug7 [ jumlah ]
-poll [ jumlah ]
-bugtag [ jumlah ]
-inibug [ jumlah ]
-buttonampas [ jumlah ]
-hiya [ jumlah ]
-lokas [ jumlah ]
-catalog [ jumlah ]
-docu [ jumlah ]
-daca [ jumlah ]
-duc [ jumlah ]
-ducu [ jumlah ]
-troli [ jumlah ]
-troli2 [ jumlah ]
-spam [ Reply Pesan ]
-
-° Jadi Bug °
-
-jadibug1 [ Reply Video Jadi Bug Audio ]
-jadibug2 [ Reply Video Jadi Bug Mp3 ]
-jadibug3 [ Reply Audio Jadi Bug Vn ]
-jadibug4 [ Reply Sticker Jadi Bug Gambar ]
-jadibug5 [ Reply Gambar Jadi Bug Once ] 
-
-° Bug Broadcast °
-
-bugbcimage [ Bug image Broadcast ]
-bugbcvideo [ Bug Video Broadcas ]
-bugbc audio [ Bug Audio Broadcast ]
-bugbctext [ Bug Text Broadcast ]`,
+© ⏤͟͟͞𝐙𝚫𝐋𝐋 𝐌𝚫𝐊𝚵𝐑`,
 contextInfo:{"externalAdReply": {"title": `SC ZALL MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
